@@ -50,14 +50,13 @@
 /* === Message Error === */
 
 #msgError {
-  margin-top: 3rem;
-  margin-bottom: 0.5rem;
+  margin-top: 3.5rem;
   padding: 8px;
   border-radius: 4px;
   text-align: center;
   color: #ff0000;
   background-color: #ffbbbb;
-  opacity: 0;
+  /* opacity: 0; */
 }
 
 /* === form-group === */
@@ -108,4 +107,5 @@
 }
 label.active {
   top: -0.3rem;
+  color: var(--beige-color);
 }
