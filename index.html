@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>hcj-login-screen - Tela de Login e Cadastro</title>
+    <title>Login Screen - Tela de Login e Cadastro</title>
     <!-- CSS -->
     <link rel="stylesheet" href="/src/css/global.css" />
     <!-- Javascript -->
@@ -17,8 +17,22 @@
   <body>
     <section id="login">
       <div class="container center">
-        <div class="cardLogin">
+        <div class="cardLogin center">
           <i class="fa-regular fa-user"></i>
+          <div id="msgError">msg</div>
+          <div class="form-group">
+            <label for="formLabel" id="userLabel">Usuário</label>
+            <input type="text" id="usuario" />
+          </div>
+          <div class="form-group">
+            <label for="formLabel" id="senhaLabel">Senha</label>
+            <input type="password" id="senha" />
+            <i class="fa fa-eye" aria-hidden="true"></i>
+          </div>
+          <p>
+            Não tem uma conta?
+            <button onclick="abrirModal()">Cadastre-se</button>
+          </p>
         </div>
       </div>
     </section>

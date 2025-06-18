@@ -43,3 +43,69 @@
   font-size: 4rem;
   color: var(--beige-color);
 }
+.cardLogin .fa-user:hover {
+  transform: rotateX(360deg);
+}
+
+/* === Message Error === */
+
+#msgError {
+  margin-top: 3rem;
+  margin-bottom: 0.5rem;
+  padding: 8px;
+  border-radius: 4px;
+  text-align: center;
+  color: #ff0000;
+  background-color: #ffbbbb;
+  opacity: 0;
+}
+
+/* === form-group === */
+
+.form-group {
+  position: relative;
+}
+.form-group label {
+  position: absolute;
+  top: 1.5rem;
+  left: 0.5rem;
+  pointer-events: none;
+  color: var(--blue-200);
+}
+.form-group input {
+  width: 100%;
+  min-width: 18rem;
+  margin: 1rem 0;
+  padding: 8px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  background: var(--beige-color);
+
+  font-size: 16px;
+  color: var(--blue-200);
+  transition: all 0.3s ease-out;
+  border: 2px solid transparent;
+}
+.cardLogin p {
+  color: var(--blue-200);
+  font-size: 14px;
+  text-align: center;
+}
+.cardLogin button {
+  border: none;
+  background: transparent;
+  color: var(--beige-color);
+  cursor: pointer;
+  font-size: 14px;
+}
+.fa-eye {
+  position: absolute;
+  top: 1.6rem;
+  right: 0.8rem;
+  cursor: pointer;
+  color: var(--blue-200);
+}
+label.active {
+  top: -0.3rem;
+}
