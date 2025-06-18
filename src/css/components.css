@@ -1,0 +1,20 @@
+/* CSS Components */
+
+/* === Buttons === */
+.btn button {
+  padding: 0.6rem 6rem;
+  border-radius: 0.8rem;
+  border: 3px solid transparent;
+  cursor: pointer;
+  color: var(--beige-color);
+  background: var(--blue-300);
+
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.btn button:hover {
+  border: 3px solid var(--blue-300);
+  color: var(--blue-300);
+  background: var(--beige-color);
+}
