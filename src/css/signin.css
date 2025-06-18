@@ -1,0 +1,45 @@
+/* Login Screen CSS */
+
+/* === importing CSS === */
+@import url("global.css");
+@import url("components.css");
+
+/* === cardLogin === */
+
+.cardLogin {
+  width: 22rem;
+  height: 18rem;
+  padding: 2rem;
+  flex-direction: column;
+  border-radius: 1rem;
+  background: var(--bg-card);
+
+  position: relative;
+}
+.cardLogin::before {
+  content: "";
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  position: absolute;
+  left: 6.8rem;
+  top: -3.6rem;
+  background: var(--blue-400);
+}
+.cardLogin .fa-user {
+  width: 110px;
+  height: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid var(--beige-color);
+  border-radius: 50%;
+  position: absolute;
+  left: 34%;
+  top: -3rem;
+  background: var(--blue-200);
+  transition: all 1s ease-in-out;
+
+  font-size: 4rem;
+  color: var(--beige-color);
+}
