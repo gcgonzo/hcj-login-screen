@@ -1,0 +1,87 @@
+/* Sign up Screen CSS */
+
+/* === importing CSS === */
+@import url("global.css");
+@import url("components.css");
+
+#signup {
+  display: none;
+}
+#signup .container {
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background: rgba(0, 0, 0, 0.2);
+}
+.cardSignup {
+  width: 25rem;
+  height: 26rem;
+  margin: 0.5rem 0;
+  border-radius: 1rem;
+  background: var(--beige-100);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+#signup .btn button {
+  padding: 0.6rem 8rem;
+}
+.header-card {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid var(--blue-100);
+  color: var(--blue-100);
+}
+.header-card span {
+  width: 20px;
+  height: 22px;
+  border: 1px solid var(--blue-100);
+  cursor: pointer;
+}
+.header-card span:hover {
+  background: var(--blue-100);
+  color: var(--beige-100);
+}
+
+.cardSignup #msgError,
+#msgSuccess {
+  /* display: none; */
+  margin-top: -1rem;
+  text-align: center;
+  color: var(--blue-100);
+}
+
+/* Formulário de cadastro */
+
+.cardSignup .form-group {
+  margin: 0 1rem;
+  position: relative;
+}
+.cardSignup .form-group input {
+  display: inline-block;
+  outline: none;
+  background: var(--blue-100);
+  color: var(--beige-100);
+}
+.cardSignup .form-group label {
+  position: absolute;
+  top: 1.5rem;
+  left: 0.5rem;
+  pointer-events: none;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+.cardSignup .form-group .fa-eye {
+  color: var(--beige-100);
+}
+.cardSignup .form-group .fa-eye:hover {
+  color: var(--blue-200);
+}
+
+.cardSignup label.active {
+  top: -0.3rem;
+  color: var(--blue-100);
+}

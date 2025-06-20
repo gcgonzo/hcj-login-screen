@@ -36,3 +36,17 @@ window.addEventListener("unload", () => {
     e.value = ""
   })
 })
+
+// Configuração para mostrar a senha digitada pelo usuário
+
+const eye = document.querySelector(".fa-eye")
+// console.log(eye)
+
+eye.addEventListener("click", () => {
+  //console.log(senha.type)
+  if (senha.getAttribute("type") === "password") {
+    senha.setAttribute("type", "text")
+  } else {
+    senha.setAttribute("type", "password")
+  }
+})

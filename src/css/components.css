@@ -6,15 +6,26 @@
   border-radius: 0.8rem;
   border: 3px solid transparent;
   cursor: pointer;
-  color: var(--beige-color);
-  background: var(--blue-300);
+  color: var(--beige-100);
+  background: var(--blue-100);
 
   font-size: 18px;
   font-weight: bold;
   letter-spacing: 1px;
 }
 .btn button:hover {
-  border: 3px solid var(--blue-300);
-  color: var(--blue-300);
-  background: var(--beige-color);
+  border: 3px solid var(--blue-100);
+  color: var(--blue-100);
+  background: var(--beige-100);
+}
+
+.fa-eye {
+  position: absolute;
+  top: 1.6rem;
+  right: 0.8rem;
+  cursor: pointer;
+  color: var(--blue-100);
+}
+.fa-eye:hover {
+  color: var(--blue-200);
 }
