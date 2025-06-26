@@ -12,5 +12,5 @@ function sair() {
   localStorage.removeItem("token")
   localStorage.removeItem("userLogado")
   localStorage.removeItem("nome")
-  window.location.href = "/index.html"
+  window.location.href = "../../index.html"
 }
