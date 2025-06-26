@@ -86,15 +86,17 @@
   color: var(--blue-100);
 }
 
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 420px) {
+  html {
+    font-size: 85.7%;
+  }
   #signup .container {
     width: 100%;
     height: 100vh;
   }
   .cardSignup {
     width: 90%;
-    height: 55%;
-    margin: 0.2rem auto;
+    height: 50%;
   }
   #signup .btn button {
     padding: 0.6rem 3rem;
