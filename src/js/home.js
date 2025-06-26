@@ -12,5 +12,5 @@ function sair() {
   localStorage.removeItem("token")
   localStorage.removeItem("userLogado")
   localStorage.removeItem("nome")
-  window.location.href = "https://gcgonzo.github.io/hcj-login-screen/"
+  window.location.href = "/hcj-login-screen"
 }
