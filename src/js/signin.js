@@ -90,7 +90,7 @@ function entrar() {
     }
   })
   if (usuario.value == userValid.user && senha.value == userValid.senha) {
-    window.location.href = "/src/html/home.html"
+    window.location.href = "src/html/home.html"
     let mathRandom = Math.random().toString(16).substring(2)
     let token = mathRandom + mathRandom
     // console.log(token)
