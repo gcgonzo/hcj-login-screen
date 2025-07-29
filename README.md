@@ -24,6 +24,7 @@
       └── home.js
       └── signin.js
       └── signup.js      
+  ├── 📁 README.md 
   ├── 📁 index.html 
 ~~~
 ## :closed_lock_with_key: Funcionalidades
